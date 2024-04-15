@@ -1,0 +1,1458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Coinpay\ntf\CoinpayNFT\bin\app.publish\</_PublishTargetUrl>
+    <History>True|2022-07-29T22:02:10.8734545Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 10:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 10:29:20</publishTime>
+    </File>
+    <File Include="bin/BouncyCastle.Crypto.dll">
+      <publishTime>04/10/2018 07:45:44</publishTime>
+    </File>
+    <File Include="bin/CoinpayNFT.dll">
+      <publishTime>07/29/2022 16:02:09</publishTime>
+    </File>
+    <File Include="bin/CoinpayNFT.pdb">
+      <publishTime>07/29/2022 16:02:09</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.dll">
+      <publishTime>08/16/2017 00:51:46</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.pdb">
+      <publishTime>08/16/2017 00:51:46</publishTime>
+    </File>
+    <File Include="bin/Flurl.dll">
+      <publishTime>10/31/2020 08:17:42</publishTime>
+    </File>
+    <File Include="bin/Flurl.Http.dll">
+      <publishTime>10/31/2020 08:17:46</publishTime>
+    </File>
+    <File Include="bin/Flurl.Http.pdb">
+      <publishTime>10/31/2020 08:17:46</publishTime>
+    </File>
+    <File Include="bin/Flurl.pdb">
+      <publishTime>10/31/2020 08:17:42</publishTime>
+    </File>
+    <File Include="bin/FormsAuthenticationExtensions.dll">
+      <publishTime>04/30/2012 23:55:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 10:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 05:48:56</publishTime>
+    </File>
+    <File Include="bin/Nethereum.Portable.dll">
+      <publishTime>02/13/2020 08:47:18</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/08/2019 18:56:44</publishTime>
+    </File>
+    <File Include="bin/Pinata.Client.dll">
+      <publishTime>12/05/2020 17:37:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/07/2018 23:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 06:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 06:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/07/2018 23:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 06:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 06:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/07/2018 23:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/07/2018 23:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/07/2018 23:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/07/2018 23:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/07/2018 23:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/07/2018 23:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 06:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 03:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 03:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 06:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 06:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 12:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 12:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/15/2018 21:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 12:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 12:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 12:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 12:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 12:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 12:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 12:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 12:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 12:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 12:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 12:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/15/2018 21:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 12:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 12:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 12:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 12:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 12:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 12:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 12:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 12:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 12:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 12:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 12:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 12:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/07/2018 23:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 06:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 06:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/07/2018 23:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 06:18:16</publishTime>
+    </File>
+    <File Include="bin/System.ValueTuple.dll">
+      <publishTime>05/15/2018 07:29:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 07:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 06:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 09:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 07:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/28/2018 07:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/28/2018 07:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/28/2018 07:04:24</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 07:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/siteLogin.css">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/SPA/inline.gif">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/SPA/loading.gif">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/SPA/readme.txt">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/SPA/sm-loader.gif">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/SPA/toufiqElahySPA.css">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Content/SPA/toufiqElahySPA.js">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="nft/7mcq4lo-csmj.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/arabik/index.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/art.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/css/all.min.css">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-brands-400.eot">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-brands-400.svg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-brands-400.ttf">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-brands-400.woff">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-brands-400.woff2">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-brands-400d41d.eot">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-regular-400.eot">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-regular-400.svg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-regular-400.ttf">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-regular-400.woff">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-regular-400.woff2">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-regular-400d41d.eot">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-solid-900.eot">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-solid-900.svg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-solid-900.ttf">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-solid-900.woff">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-solid-900.woff2">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/assets/fontawesome/webfonts/fa-solid-900d41d.eot">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/bidding-history.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/browse.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/checkout.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/collectibles.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/contact.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/create-store.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/current-item-list.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/dark-author.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/dashboard.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/discover.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/domains.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/faq.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/forgot-password.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/game-items.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/gasless.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/go-pro.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/history.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/index-2.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/index.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/item-list.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/login.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/messages.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/min-item.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/music.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/my-earnings.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/my-orders.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/my-wallet.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/privacy-policy.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/proposals.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/proposals_1.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/color/blueberry.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/color/color.min.css">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/color/green.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/color/light-pink.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/color/orrange.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/color/picton-blue.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/color/red.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/color/rose.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/color/violet.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/color/violets.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/color/walls.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/color/whiskey.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/dark-chat.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/dark-user-panel.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/login.min.css">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/owl.video.play.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/site.min.css">
+      <publishTime>07/01/2022 09:55:29</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/slider-animation.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/user-panel-rtl.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/css/user-panel.min.css">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/images/default-logo.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/images/default-preloader.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/js/custom.min.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/js/libs/animate.css/4.1.1/animate.min.css">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/js/libs/jqueryui/1.12.0/jquery-ui.min.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/js/nft-marketplace.min.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/assets/js/user-custom.min.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/about-responsive.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/about.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/addfiles.svg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/artist-responsive.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/art_4.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/art_detail_7.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/author-1.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/author-5.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/badges.svg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/banner.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/blueberry-logo.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/blueberry-preloader.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/art.png">
+      <publishTime>06/30/2022 14:05:41</publishTime>
+    </File>
+    <File Include="nft/public/images/category/art/art_1.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/art/art_2.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/art/art_3.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/art/art_4.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/art/art_5.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/art/art_6.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/art/art_7.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/art/art_8.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/art/art_9.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/category-1.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/category-2.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/category-3.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/category-4.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/category-5.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/category-6.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/category-7.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/category-8.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/collect.png">
+      <publishTime>06/30/2022 14:05:41</publishTime>
+    </File>
+    <File Include="nft/public/images/category/collectibles/art_1.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/collectibles/art_2.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/collectibles/art_3.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/collectibles/art_4.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/collectibles/art_5.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/collectibles/art_6.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/collectibles/art_7.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/collectibles/art_8.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/collectibles/profile1.gif">
+      <publishTime>06/30/2022 14:05:41</publishTime>
+    </File>
+    <File Include="nft/public/images/category/domain/art_1.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/domain/art_2.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/domain/art_3.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/domain/art_4.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/domain/art_5.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/domain/art_6.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/domain/art_7.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/domain/art_8.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/domain/art_9.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/domains.png">
+      <publishTime>06/30/2022 14:05:41</publishTime>
+    </File>
+    <File Include="nft/public/images/category/forest.jpg">
+      <publishTime>06/30/2022 14:05:41</publishTime>
+    </File>
+    <File Include="nft/public/images/category/game/art_1.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/game/art_2.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/game/art_3.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/game/art_4.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/game/art_5.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/game/art_6.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/game/art_7.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/game/art_8.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/game/art_9.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/games.png">
+      <publishTime>06/30/2022 14:05:41</publishTime>
+    </File>
+    <File Include="nft/public/images/category/music.png">
+      <publishTime>06/30/2022 14:05:41</publishTime>
+    </File>
+    <File Include="nft/public/images/category/music/art_1.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/music/art_2.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/music/art_3.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/music/art_4.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/music/art_5.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/music/art_6.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/music/art_7.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/music/art_8.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/music/art_9.gif">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/nature.png">
+      <publishTime>06/30/2022 14:05:41</publishTime>
+    </File>
+    <File Include="nft/public/images/category/preservation.jpg">
+      <publishTime>06/30/2022 14:05:41</publishTime>
+    </File>
+    <File Include="nft/public/images/category/real-estate.png">
+      <publishTime>06/30/2022 14:05:42</publishTime>
+    </File>
+    <File Include="nft/public/images/category/sports.png">
+      <publishTime>06/30/2022 14:05:42</publishTime>
+    </File>
+    <File Include="nft/public/images/category/template/art_1.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/template/art_2.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/template/art_3.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/template/art_4.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/template/art_5.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/template/art_6.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/template/art_7.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/template/art_8.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/template/art_9.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/video/art_1.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/video/art_2.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/video/art_3.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/video/art_4.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/video/art_5.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/video/art_6.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/video/art_7.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/video/art_8.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/category/video/art_9.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/costarica/1200px-Sustainable_Development_Goal_6.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/costarica/climate.png">
+      <publishTime>06/29/2022 12:05:56</publishTime>
+    </File>
+    <File Include="nft/public/images/costarica/E_SDG goals_icons-individual-rgb-15.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/costarica/images.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/costarica/land.png">
+      <publishTime>06/29/2022 12:05:56</publishTime>
+    </File>
+    <File Include="nft/public/images/costarica/Picture 036.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/costarica/Sarapiqui.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/costarica/Unknown.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/costarica/water.png">
+      <publishTime>06/29/2022 12:05:56</publishTime>
+    </File>
+    <File Include="nft/public/images/costarica/world.png">
+      <publishTime>06/29/2022 12:05:56</publishTime>
+    </File>
+    <File Include="nft/public/images/currency/currency_ETH.svg">
+      <publishTime>06/29/2022 16:03:48</publishTime>
+    </File>
+    <File Include="nft/public/images/discover.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/download.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/earn-listing-img.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/eth-coin.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/favicon.ico">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/fill-star.svg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/green-logo.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/green-preloader.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/home-animation-image1.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/home/space.svg">
+      <publishTime>06/29/2022 12:05:56</publishTime>
+    </File>
+    <File Include="nft/public/images/image.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/item2.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/light-pink-logo.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/light-pink-preloader.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/list-and-sell/screen-top.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/list-and-sell/screen.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/list-and-sell/token.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/login-background.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/logo-white.png">
+      <publishTime>06/30/2022 17:36:40</publishTime>
+    </File>
+    <File Include="nft/public/images/logo.png">
+      <publishTime>06/29/2022 12:05:56</publishTime>
+    </File>
+    <File Include="nft/public/images/map.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/marketplace-governed/item1.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/marketplace-governed/item2.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/marketplace-governed/item3.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/marketplace-governed/item4.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/marketplace-governed/item5.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/marketplace-governed/main-banner.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/marketplace-mockup.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/meta-banner.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/mintale1.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/mintale2.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/mintale3.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/nft/nft_governance.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/nft/no_bad.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/nft/super_nft.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/nft/yield_farming.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/nft/you_control.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/no-earnings.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/no-history.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/no-orders.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/orrange-logo.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/orrange-preloader.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/picton-blue-logo.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/picton-blue-preloader.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/platform-artist/artist.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/platform-artist/round.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/platform-artist/screen1.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/platform-artist/screen2.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/platform-artist/screen3.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/platform-artist/screen4.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/preloader.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/ratting.svg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/red-logo.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/red-preloader.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/right-arrow.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/rose-logo.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/rose-preloader.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/selling1.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/selling2.jpg">
+      <publishTime>06/29/2022 13:20:26</publishTime>
+    </File>
+    <File Include="nft/public/images/selling3.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/selling4.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/selling5.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/selling6.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/selling7.jpg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/selling8.jpg">
+      <publishTime>06/29/2022 13:20:26</publishTime>
+    </File>
+    <File Include="nft/public/images/shop.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/slide-image.jpeg">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/slide-image.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/slider-bg.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/slider/computer.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/slider/giraffes.png">
+      <publishTime>06/29/2022 12:05:56</publishTime>
+    </File>
+    <File Include="nft/public/images/slider/screen.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/slider/screen1.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/slider/screen2.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/slider/screen3.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/slider/screen4.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/slider/screen5.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/slider/selling2.jpg">
+      <publishTime>06/29/2022 12:05:56</publishTime>
+    </File>
+    <File Include="nft/public/images/slider/selling8.jpg">
+      <publishTime>06/29/2022 12:05:56</publishTime>
+    </File>
+    <File Include="nft/public/images/slider/selling9.jpg">
+      <publishTime>06/29/2022 12:05:56</publishTime>
+    </File>
+    <File Include="nft/public/images/slider/waterfall.jpg">
+      <publishTime>06/30/2022 14:05:42</publishTime>
+    </File>
+    <File Include="nft/public/images/user1.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/user2.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/user3.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/user4.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/user5.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/user6.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/user7.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/user8.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/violet-logo.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/violet-preloader.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/violets-logo.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/violets-preloader.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/vote-img.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/walls-logo.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/walls-preloader.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/whiskey-logo.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/whiskey-preloader.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/wk1.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/world_map.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/public/images/writing.png">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/register.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/review-seller.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/reviews.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/search.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/settings.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/sold-item-list.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/templates.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/terms-of-use.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/videos.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/view-detail.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/vote.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="nft/won-auctions.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="src/auction-template.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/auctions.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/create-auction-modal.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/css/bootstrap.min.css">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/css/bootstrap.min.css.map">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/css/custom-styles.css">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/css/overlay-no-web3.css">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/ethers4dist/demo/index.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/ethers4dist/demo/style.css">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/ethers4dist/ethers.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/ethers4dist/ethers.min.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/ethers4dist/ethers.min.js.map">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/ethers4dist/ethers.types.txt">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/ethers4dist/shims.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/ethers4dist/wordlist-es.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/ethers4dist/wordlist-fr.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/ethers4dist/wordlist-it.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/ethers4dist/wordlist-ja.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/ethers4dist/wordlist-ko.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/ethers4dist/wordlist-zh.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/file.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/index.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/inventory.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/js/app.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/js/assets/bootstrap.min.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/js/assets/Chart.min.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/js/assets/chartjs-plugin-annotation.min.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/js/assets/fitty.min.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/js/assets/moment.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/js/assets/truffle-contract.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/js/assets/web3.min.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/js/auctions.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/js/create-auction-modal.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/js/init-web3.js">
+      <publishTime>07/29/2022 12:38:02</publishTime>
+    </File>
+    <File Include="src/js/inventory.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/js/navbar-header.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/js/view-auction-modal.js">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/navbar-header.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="src/view-auction-modal.html">
+      <publishTime>02/14/2022 08:37:18</publishTime>
+    </File>
+    <File Include="Views/Auction/Contact.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Auction/CreateNft.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Auction/Help.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Auction/Home.cshtml">
+      <publishTime>06/30/2022 17:36:40</publishTime>
+    </File>
+    <File Include="Views/Auction/Index.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Auction/Proposals.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Auction/ViewDetail.cshtml">
+      <publishTime>07/29/2022 12:38:02</publishTime>
+    </File>
+    <File Include="Views/Auction/VoteDao.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Auction/_auction-template.cshtml">
+      <publishTime>06/29/2022 12:05:56</publishTime>
+    </File>
+    <File Include="Views/Auction/_view-auction-modal.cshtml">
+      <publishTime>07/29/2022 12:38:02</publishTime>
+    </File>
+    <File Include="Views/Home/BiddingHistory.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/CurrentItemList.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/Earnings.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/History.cshtml">
+      <publishTime>07/29/2022 12:38:02</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/Index2.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/Inventory.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/Listing.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/Login.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/Message.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/MyOrders.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/NftAdmin.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/NftAdminSingle.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/Profile.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/Reviews.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/SoldItemList.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/WonAuctions.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Home/_create-auction-modal.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout - Copy.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>07/29/2022 12:38:02</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutAuction.cshtml">
+      <publishTime>07/29/2022 12:54:33</publishTime>
+    </File>
+    <File Include="Views/Shared/_NavBarHeader.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>02/14/2022 08:37:17</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/27/2022 09:32:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

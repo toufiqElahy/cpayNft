@@ -1,0 +1,9 @@
+/.vs
+/packages
+/CoinpayNFT/obj/*
+
+/CoinpayNFT/bin/*.dll
+/CoinpayNFT/bin/*.pdb
+/CoinpayNFT/bin/*.xml
+/CoinpayNFT/bin/*.config
+/CoinpayNFT/bin/roslyn

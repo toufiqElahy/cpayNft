@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5B7AFF1C-F329-4950-871B-AD0C87CE392C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoinpayNFT</RootNamespace>
+    <AssemblyName>CoinpayNFT</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44352</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.2.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.8.2\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Flurl, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flurl.3.0.0\lib\net461\Flurl.dll</HintPath>
+    </Reference>
+    <Reference Include="Flurl.Http, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flurl.Http.3.0.0\lib\net461\Flurl.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="FormsAuthenticationExtensions, Version=1.3.0.15, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FormsAuthenticationExtensions.1.3.0.15\lib\net40\FormsAuthenticationExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Nethereum.Portable, Version=1.0.7348.26609, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nethereum.Portable.3.7.0\lib\portable45-net45+win8+wpa81\Nethereum.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Pinata.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Pinata.Client.1.0.0\lib\net461\Pinata.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AuctionController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Nft.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="services\PinataService.cs" />
+    <Compile Include="services\SendEmail.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\siteLogin.css" />
+    <Content Include="Content\SPA\inline.gif" />
+    <Content Include="Content\SPA\loading.gif" />
+    <Content Include="Content\SPA\readme.txt" />
+    <Content Include="Content\SPA\sm-loader.gif" />
+    <Content Include="Content\SPA\toufiqElahySPA.css" />
+    <Content Include="Content\SPA\toufiqElahySPA.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="nft\7mcq4lo-csmj.html" />
+    <Content Include="nft\arabik\index.html" />
+    <Content Include="nft\art.html" />
+    <Content Include="nft\assets\fontawesome\css\all.min.css" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-brands-400.svg" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-regular-400.svg" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-solid-900.svg" />
+    <Content Include="nft\bidding-history.html" />
+    <Content Include="nft\browse.html" />
+    <Content Include="nft\checkout.html" />
+    <Content Include="nft\collectibles.html" />
+    <Content Include="nft\contact.html" />
+    <Content Include="nft\create-store.html" />
+    <Content Include="nft\current-item-list.html" />
+    <Content Include="nft\dark-author.html" />
+    <Content Include="nft\dashboard.html" />
+    <Content Include="nft\discover.html" />
+    <Content Include="nft\domains.html" />
+    <Content Include="nft\faq.html" />
+    <Content Include="nft\forgot-password.html" />
+    <Content Include="nft\game-items.html" />
+    <Content Include="nft\gasless.html" />
+    <Content Include="nft\go-pro.html" />
+    <Content Include="nft\history.html" />
+    <Content Include="nft\index-2.html" />
+    <Content Include="nft\index.html" />
+    <Content Include="nft\item-list.html" />
+    <Content Include="nft\login.html" />
+    <Content Include="nft\messages.html" />
+    <Content Include="nft\min-item.html" />
+    <Content Include="nft\music.html" />
+    <Content Include="nft\my-earnings.html" />
+    <Content Include="nft\my-orders.html" />
+    <Content Include="nft\my-wallet.html" />
+    <Content Include="nft\privacy-policy.html" />
+    <Content Include="nft\proposals.html" />
+    <Content Include="nft\proposals_1.html" />
+    <Content Include="nft\public\assets\css\color\blueberry.html" />
+    <Content Include="nft\public\assets\css\color\color.min.css" />
+    <Content Include="nft\public\assets\css\color\green.html" />
+    <Content Include="nft\public\assets\css\color\light-pink.html" />
+    <Content Include="nft\public\assets\css\color\orrange.html" />
+    <Content Include="nft\public\assets\css\color\picton-blue.html" />
+    <Content Include="nft\public\assets\css\color\red.html" />
+    <Content Include="nft\public\assets\css\color\rose.html" />
+    <Content Include="nft\public\assets\css\color\violet.html" />
+    <Content Include="nft\public\assets\css\color\violets.html" />
+    <Content Include="nft\public\assets\css\color\walls.html" />
+    <Content Include="nft\public\assets\css\color\whiskey.html" />
+    <Content Include="nft\public\assets\css\dark-chat.html" />
+    <Content Include="nft\public\assets\css\dark-user-panel.html" />
+    <Content Include="nft\public\assets\css\login.min.css" />
+    <Content Include="nft\public\assets\css\owl.video.play.html" />
+    <Content Include="nft\public\assets\css\site.min.css" />
+    <Content Include="nft\public\assets\css\slider-animation.html" />
+    <Content Include="nft\public\assets\css\user-panel-rtl.html" />
+    <Content Include="nft\public\assets\css\user-panel.min.css" />
+    <Content Include="nft\public\assets\images\default-logo.html" />
+    <Content Include="nft\public\assets\images\default-preloader.html" />
+    <Content Include="nft\public\assets\js\custom.min.js" />
+    <Content Include="nft\public\assets\js\libs\animate.css\4.1.1\animate.min.css" />
+    <Content Include="nft\public\assets\js\libs\jqueryui\1.12.0\jquery-ui.min.js" />
+    <Content Include="nft\public\assets\js\nft-marketplace.min.js" />
+    <Content Include="nft\public\assets\js\user-custom.min.js" />
+    <Content Include="nft\public\images\about-responsive.png" />
+    <Content Include="nft\public\images\about.png" />
+    <Content Include="nft\public\images\addfiles.svg" />
+    <Content Include="nft\public\images\artist-responsive.png" />
+    <Content Include="nft\public\images\art_4.png" />
+    <Content Include="nft\public\images\art_detail_7.png" />
+    <Content Include="nft\public\images\author-1.jpg" />
+    <Content Include="nft\public\images\author-5.jpg" />
+    <Content Include="nft\public\images\badges.svg" />
+    <Content Include="nft\public\images\banner.jpg" />
+    <Content Include="nft\public\images\blueberry-logo.html" />
+    <Content Include="nft\public\images\blueberry-preloader.html" />
+    <Content Include="nft\public\images\category\art.png" />
+    <Content Include="nft\public\images\category\art\art_1.png" />
+    <Content Include="nft\public\images\category\art\art_2.png" />
+    <Content Include="nft\public\images\category\art\art_3.png" />
+    <Content Include="nft\public\images\category\art\art_4.png" />
+    <Content Include="nft\public\images\category\art\art_5.png" />
+    <Content Include="nft\public\images\category\art\art_6.png" />
+    <Content Include="nft\public\images\category\art\art_7.png" />
+    <Content Include="nft\public\images\category\art\art_8.png" />
+    <Content Include="nft\public\images\category\art\art_9.png" />
+    <Content Include="nft\public\images\category\category-1.jpg" />
+    <Content Include="nft\public\images\category\category-2.jpg" />
+    <Content Include="nft\public\images\category\category-3.jpg" />
+    <Content Include="nft\public\images\category\category-4.jpg" />
+    <Content Include="nft\public\images\category\category-5.jpg" />
+    <Content Include="nft\public\images\category\category-6.jpg" />
+    <Content Include="nft\public\images\category\category-7.jpg" />
+    <Content Include="nft\public\images\category\category-8.jpg" />
+    <Content Include="nft\public\images\category\collect.png" />
+    <Content Include="nft\public\images\category\collectibles\art_1.gif" />
+    <Content Include="nft\public\images\category\collectibles\art_2.gif" />
+    <Content Include="nft\public\images\category\collectibles\art_3.gif" />
+    <Content Include="nft\public\images\category\collectibles\art_4.gif" />
+    <Content Include="nft\public\images\category\collectibles\art_5.gif" />
+    <Content Include="nft\public\images\category\collectibles\art_6.gif" />
+    <Content Include="nft\public\images\category\collectibles\art_7.gif" />
+    <Content Include="nft\public\images\category\collectibles\art_8.gif" />
+    <Content Include="nft\public\images\category\collectibles\profile1.gif" />
+    <Content Include="nft\public\images\category\domains.png" />
+    <Content Include="nft\public\images\category\domain\art_1.png" />
+    <Content Include="nft\public\images\category\domain\art_2.png" />
+    <Content Include="nft\public\images\category\domain\art_3.png" />
+    <Content Include="nft\public\images\category\domain\art_4.png" />
+    <Content Include="nft\public\images\category\domain\art_5.png" />
+    <Content Include="nft\public\images\category\domain\art_6.png" />
+    <Content Include="nft\public\images\category\domain\art_7.png" />
+    <Content Include="nft\public\images\category\domain\art_8.png" />
+    <Content Include="nft\public\images\category\domain\art_9.png" />
+    <Content Include="nft\public\images\category\forest.jpg" />
+    <Content Include="nft\public\images\category\games.png" />
+    <Content Include="nft\public\images\category\game\art_1.png" />
+    <Content Include="nft\public\images\category\game\art_2.png" />
+    <Content Include="nft\public\images\category\game\art_3.gif" />
+    <Content Include="nft\public\images\category\game\art_4.gif" />
+    <Content Include="nft\public\images\category\game\art_5.png" />
+    <Content Include="nft\public\images\category\game\art_6.gif" />
+    <Content Include="nft\public\images\category\game\art_7.gif" />
+    <Content Include="nft\public\images\category\game\art_8.png" />
+    <Content Include="nft\public\images\category\game\art_9.png" />
+    <Content Include="nft\public\images\category\music.png" />
+    <Content Include="nft\public\images\category\music\art_1.png" />
+    <Content Include="nft\public\images\category\music\art_2.png" />
+    <Content Include="nft\public\images\category\music\art_3.png" />
+    <Content Include="nft\public\images\category\music\art_4.png" />
+    <Content Include="nft\public\images\category\music\art_5.png" />
+    <Content Include="nft\public\images\category\music\art_6.png" />
+    <Content Include="nft\public\images\category\music\art_7.png" />
+    <Content Include="nft\public\images\category\music\art_8.gif" />
+    <Content Include="nft\public\images\category\music\art_9.gif" />
+    <Content Include="nft\public\images\category\nature.png" />
+    <Content Include="nft\public\images\category\preservation.jpg" />
+    <Content Include="nft\public\images\category\real-estate.png" />
+    <Content Include="nft\public\images\category\sports.png" />
+    <Content Include="nft\public\images\category\template\art_1.png" />
+    <Content Include="nft\public\images\category\template\art_2.png" />
+    <Content Include="nft\public\images\category\template\art_3.png" />
+    <Content Include="nft\public\images\category\template\art_4.png" />
+    <Content Include="nft\public\images\category\template\art_5.png" />
+    <Content Include="nft\public\images\category\template\art_6.png" />
+    <Content Include="nft\public\images\category\template\art_7.png" />
+    <Content Include="nft\public\images\category\template\art_8.png" />
+    <Content Include="nft\public\images\category\template\art_9.png" />
+    <Content Include="nft\public\images\category\video\art_1.png" />
+    <Content Include="nft\public\images\category\video\art_2.png" />
+    <Content Include="nft\public\images\category\video\art_3.png" />
+    <Content Include="nft\public\images\category\video\art_4.png" />
+    <Content Include="nft\public\images\category\video\art_5.png" />
+    <Content Include="nft\public\images\category\video\art_6.png" />
+    <Content Include="nft\public\images\category\video\art_7.png" />
+    <Content Include="nft\public\images\category\video\art_8.png" />
+    <Content Include="nft\public\images\category\video\art_9.png" />
+    <Content Include="nft\public\images\costarica\1200px-Sustainable_Development_Goal_6.png" />
+    <Content Include="nft\public\images\costarica\climate.png" />
+    <Content Include="nft\public\images\costarica\E_SDG goals_icons-individual-rgb-15.png" />
+    <Content Include="nft\public\images\costarica\images.png" />
+    <Content Include="nft\public\images\costarica\land.png" />
+    <Content Include="nft\public\images\costarica\Picture 036.jpg" />
+    <Content Include="nft\public\images\costarica\Sarapiqui.png" />
+    <Content Include="nft\public\images\costarica\Unknown.png" />
+    <Content Include="nft\public\images\costarica\water.png" />
+    <Content Include="nft\public\images\costarica\world.png" />
+    <Content Include="nft\public\images\currency\currency_ETH.svg" />
+    <Content Include="nft\public\images\discover.jpg" />
+    <Content Include="nft\public\images\download.png" />
+    <Content Include="nft\public\images\earn-listing-img.png" />
+    <Content Include="nft\public\images\eth-coin.png" />
+    <Content Include="nft\public\images\favicon.ico" />
+    <Content Include="nft\public\images\fill-star.svg" />
+    <Content Include="nft\public\images\green-logo.html" />
+    <Content Include="nft\public\images\green-preloader.html" />
+    <Content Include="nft\public\images\home-animation-image1.png" />
+    <Content Include="nft\public\images\home\space.svg" />
+    <Content Include="nft\public\images\image.jpg" />
+    <Content Include="nft\public\images\item2.jpg" />
+    <Content Include="nft\public\images\light-pink-logo.html" />
+    <Content Include="nft\public\images\light-pink-preloader.html" />
+    <Content Include="nft\public\images\list-and-sell\screen-top.png" />
+    <Content Include="nft\public\images\list-and-sell\screen.png" />
+    <Content Include="nft\public\images\list-and-sell\token.png" />
+    <Content Include="nft\public\images\login-background.jpg" />
+    <Content Include="nft\public\images\logo-white.png" />
+    <Content Include="nft\public\images\logo.png" />
+    <Content Include="nft\public\images\map.png" />
+    <Content Include="nft\public\images\marketplace-governed\item1.png" />
+    <Content Include="nft\public\images\marketplace-governed\item2.png" />
+    <Content Include="nft\public\images\marketplace-governed\item3.png" />
+    <Content Include="nft\public\images\marketplace-governed\item4.png" />
+    <Content Include="nft\public\images\marketplace-governed\item5.png" />
+    <Content Include="nft\public\images\marketplace-governed\main-banner.png" />
+    <Content Include="nft\public\images\marketplace-mockup.png" />
+    <Content Include="nft\public\images\meta-banner.jpg" />
+    <Content Include="nft\public\images\mintale1.png" />
+    <Content Include="nft\public\images\mintale2.png" />
+    <Content Include="nft\public\images\mintale3.png" />
+    <Content Include="nft\public\images\nft\nft_governance.png" />
+    <Content Include="nft\public\images\nft\no_bad.png" />
+    <Content Include="nft\public\images\nft\super_nft.png" />
+    <Content Include="nft\public\images\nft\yield_farming.png" />
+    <Content Include="nft\public\images\nft\you_control.png" />
+    <Content Include="nft\public\images\no-earnings.png" />
+    <Content Include="nft\public\images\no-history.png" />
+    <Content Include="nft\public\images\no-orders.png" />
+    <Content Include="nft\public\images\orrange-logo.html" />
+    <Content Include="nft\public\images\orrange-preloader.html" />
+    <Content Include="nft\public\images\picton-blue-logo.html" />
+    <Content Include="nft\public\images\picton-blue-preloader.html" />
+    <Content Include="nft\public\images\platform-artist\artist.png" />
+    <Content Include="nft\public\images\platform-artist\round.png" />
+    <Content Include="nft\public\images\platform-artist\screen1.png" />
+    <Content Include="nft\public\images\platform-artist\screen2.png" />
+    <Content Include="nft\public\images\platform-artist\screen3.png" />
+    <Content Include="nft\public\images\platform-artist\screen4.png" />
+    <Content Include="nft\public\images\preloader.png" />
+    <Content Include="nft\public\images\ratting.svg" />
+    <Content Include="nft\public\images\red-logo.html" />
+    <Content Include="nft\public\images\red-preloader.html" />
+    <Content Include="nft\public\images\right-arrow.png" />
+    <Content Include="nft\public\images\rose-logo.html" />
+    <Content Include="nft\public\images\rose-preloader.html" />
+    <Content Include="nft\public\images\selling1.jpg" />
+    <Content Include="nft\public\images\selling2.jpg" />
+    <Content Include="nft\public\images\selling3.jpg" />
+    <Content Include="nft\public\images\selling4.jpg" />
+    <Content Include="nft\public\images\selling5.jpg" />
+    <Content Include="nft\public\images\selling6.jpg" />
+    <Content Include="nft\public\images\selling7.jpg" />
+    <Content Include="nft\public\images\selling8.jpg" />
+    <Content Include="nft\public\images\shop.png" />
+    <Content Include="nft\public\images\slide-image.jpeg" />
+    <Content Include="nft\public\images\slide-image.png" />
+    <Content Include="nft\public\images\slider-bg.png" />
+    <Content Include="nft\public\images\slider\computer.png" />
+    <Content Include="nft\public\images\slider\giraffes.png" />
+    <Content Include="nft\public\images\slider\screen.png" />
+    <Content Include="nft\public\images\slider\screen1.png" />
+    <Content Include="nft\public\images\slider\screen2.png" />
+    <Content Include="nft\public\images\slider\screen3.png" />
+    <Content Include="nft\public\images\slider\screen4.png" />
+    <Content Include="nft\public\images\slider\screen5.png" />
+    <Content Include="nft\public\images\slider\selling2.jpg" />
+    <Content Include="nft\public\images\slider\selling8.jpg" />
+    <Content Include="nft\public\images\slider\selling9.jpg" />
+    <Content Include="nft\public\images\slider\waterfall.jpg" />
+    <Content Include="nft\public\images\user1.png" />
+    <Content Include="nft\public\images\user2.png" />
+    <Content Include="nft\public\images\user3.png" />
+    <Content Include="nft\public\images\user4.png" />
+    <Content Include="nft\public\images\user5.png" />
+    <Content Include="nft\public\images\user6.png" />
+    <Content Include="nft\public\images\user7.png" />
+    <Content Include="nft\public\images\user8.png" />
+    <Content Include="nft\public\images\violet-logo.html" />
+    <Content Include="nft\public\images\violet-preloader.html" />
+    <Content Include="nft\public\images\violets-logo.html" />
+    <Content Include="nft\public\images\violets-preloader.html" />
+    <Content Include="nft\public\images\vote-img.png" />
+    <Content Include="nft\public\images\walls-logo.html" />
+    <Content Include="nft\public\images\walls-preloader.html" />
+    <Content Include="nft\public\images\whiskey-logo.html" />
+    <Content Include="nft\public\images\whiskey-preloader.html" />
+    <Content Include="nft\public\images\wk1.png" />
+    <Content Include="nft\public\images\world_map.png" />
+    <Content Include="nft\public\images\writing.png" />
+    <Content Include="nft\register.html" />
+    <Content Include="nft\review-seller.html" />
+    <Content Include="nft\reviews.html" />
+    <Content Include="nft\search.html" />
+    <Content Include="nft\settings.html" />
+    <Content Include="nft\sold-item-list.html" />
+    <Content Include="nft\templates.html" />
+    <Content Include="nft\terms-of-use.html" />
+    <Content Include="nft\videos.html" />
+    <Content Include="nft\view-detail.html" />
+    <Content Include="nft\vote.html" />
+    <Content Include="nft\won-auctions.html" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="src\auction-template.html" />
+    <Content Include="src\auctions.html" />
+    <Content Include="src\create-auction-modal.html" />
+    <Content Include="src\css\bootstrap.min.css" />
+    <Content Include="src\css\custom-styles.css" />
+    <Content Include="src\css\overlay-no-web3.css" />
+    <Content Include="src\ethers4dist\demo\index.html" />
+    <Content Include="src\ethers4dist\demo\style.css" />
+    <Content Include="src\ethers4dist\ethers.js" />
+    <Content Include="src\ethers4dist\ethers.min.js" />
+    <Content Include="src\ethers4dist\ethers.types.txt" />
+    <Content Include="src\ethers4dist\shims.js" />
+    <Content Include="src\ethers4dist\wordlist-es.js" />
+    <Content Include="src\ethers4dist\wordlist-fr.js" />
+    <Content Include="src\ethers4dist\wordlist-it.js" />
+    <Content Include="src\ethers4dist\wordlist-ja.js" />
+    <Content Include="src\ethers4dist\wordlist-ko.js" />
+    <Content Include="src\ethers4dist\wordlist-zh.js" />
+    <Content Include="src\file.html" />
+    <Content Include="src\index.html" />
+    <Content Include="src\inventory.html" />
+    <Content Include="src\js\app.js" />
+    <Content Include="src\js\assets\bootstrap.min.js" />
+    <Content Include="src\js\assets\Chart.min.js" />
+    <Content Include="src\js\assets\chartjs-plugin-annotation.min.js" />
+    <Content Include="src\js\assets\fitty.min.js" />
+    <Content Include="src\js\assets\moment.js" />
+    <Content Include="src\js\assets\truffle-contract.js" />
+    <Content Include="src\js\assets\web3.min.js" />
+    <Content Include="src\js\auctions.js" />
+    <Content Include="src\js\create-auction-modal.js" />
+    <Content Include="src\js\init-web3.js" />
+    <Content Include="src\js\inventory.js" />
+    <Content Include="src\js\navbar-header.js" />
+    <Content Include="src\js\view-auction-modal.js" />
+    <Content Include="src\navbar-header.html" />
+    <Content Include="src\view-auction-modal.html" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-brands-400.eot" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-brands-400.ttf" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-brands-400.woff" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-brands-400.woff2" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-brands-400d41d.eot" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-regular-400.eot" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-regular-400.ttf" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-regular-400.woff" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-regular-400.woff2" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-regular-400d41d.eot" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-solid-900.eot" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-solid-900.ttf" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-solid-900.woff" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-solid-900.woff2" />
+    <Content Include="nft\assets\fontawesome\webfonts\fa-solid-900d41d.eot" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="src\css\bootstrap.min.css.map" />
+    <Content Include="Views\Shared\_NavBarHeader.cshtml" />
+    <Content Include="Views\Home\Inventory.cshtml" />
+    <Content Include="Views\Home\_create-auction-modal.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\NftAdmin.cshtml" />
+    <Content Include="Views\Home\NftAdminSingle.cshtml" />
+    <Content Include="Views\Home\Index2.cshtml" />
+    <Content Include="Views\Shared\_Layout - Copy.cshtml" />
+    <Content Include="Views\Shared\_LayoutAuction.cshtml" />
+    <Content Include="Views\Auction\_auction-template.cshtml" />
+    <Content Include="Views\Auction\_view-auction-modal.cshtml" />
+    <Content Include="Views\Auction\Index.cshtml" />
+    <Content Include="Views\Auction\CreateNft.cshtml" />
+    <Content Include="Views\Auction\Home.cshtml" />
+    <Content Include="Views\Auction\Help.cshtml" />
+    <Content Include="Views\Home\Profile.cshtml" />
+    <Content Include="Views\Home\Message.cshtml" />
+    <Content Include="Views\Home\Earnings.cshtml" />
+    <Content Include="Views\Home\MyOrders.cshtml" />
+    <Content Include="Views\Home\History.cshtml" />
+    <Content Include="Views\Home\SoldItemList.cshtml" />
+    <Content Include="Views\Home\CurrentItemList.cshtml" />
+    <Content Include="Views\Home\Listing.cshtml" />
+    <Content Include="Views\Home\Reviews.cshtml" />
+    <Content Include="Views\Home\WonAuctions.cshtml" />
+    <Content Include="Views\Home\BiddingHistory.cshtml" />
+    <Content Include="src\ethers4dist\ethers.min.js.map" />
+    <Content Include="Views\Auction\VoteDao.cshtml" />
+    <Content Include="Views\Auction\Proposals.cshtml" />
+    <Content Include="Views\Auction\ViewDetail.cshtml" />
+    <Content Include="Views\Auction\Contact.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2859</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44352/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

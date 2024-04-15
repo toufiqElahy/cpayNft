@@ -1,0 +1,25 @@
+﻿@{
+    var controller = ViewContext.RouteData.Values["controller"].ToString().ToLower();
+
+    Context.Response.Headers["Cache-Control"] = "no-store";
+    if (Context.Request.Headers["X-Requested-With"] == "XMLHttpRequest")//if ajax request
+    {
+        Context.Response.Headers["Location"] = Request.RawUrl;//RawUrl
+                                                              //Context.Response.Headers["Cache-Control"] = "no-store";//context.HttpContext.Response.Cache.SetNoStore(); //stop caching(partial content) on client's browser
+    }
+    else
+    {
+        if (controller == "auction")
+        {
+            Layout = "~/Views/Shared/_LayoutAuction.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+
+    }
+}
+
+
+
